@@ -1,4 +1,8 @@
 # esp32-can-sender
+## variables used:
+
+## control flow:
+![full_potential (3)](https://github.com/user-attachments/assets/1316b651-a063-4b07-afc2-abf607a859d9)
 ## updateencoder() ->
 ![Screenshot 2024-07-19 215820](https://github.com/user-attachments/assets/371ba128-f90a-43e2-9eb3-ef61f2b87489)
 * the interrupt monitors the A channel of encoder and recors value whenever its value transitions to HIGH. 
