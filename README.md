@@ -1,7 +1,7 @@
 # esp32-can-sender
 ## variables used:
 * bufftosendcan : array used to store pwm and direction of last 3 motors, last two indices are always kept 0.
-* uint8Value : array used to send data from 'bufftosendcan' to can.
+* uint8Value : array used to send data from bufftosendcan to can.
 ## control flow:
 ![full_potential (3)](https://github.com/user-attachments/assets/1316b651-a063-4b07-afc2-abf607a859d9)
 ## updateencoder() ->
